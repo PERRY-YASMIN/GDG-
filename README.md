@@ -1,5 +1,5 @@
-# GDG-(will keep on updating as the project progresses)
-E-waste crisis management
+# E-waste crisis management-(will keep on updating as the project progresses)
+
 
 Overview
 The bin senses the level of garbage using IoT sensors(access to the level of garbage in the bin available) alerts the garbage truck systems for pickup (after the bin is 70 % full, AI predicts the time when the bin will be full and schedules the pickup time for trucks). 
