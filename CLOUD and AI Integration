@@ -1,0 +1,20 @@
+DIVING INTO CLOUD IOT CORE INTEGRATION AND AI DEVELOPMENT
+ 
+*Cloud IoT Core Integration:*
+1. *Device Registration:* Bin sensors and cameras registered on Cloud IoT Core
+2. *Data Ingestion:* Sensor data (fill levels, waste types) and camera feeds ingested into:
+ - *Cloud Storage (Bucket: smartwaste-sensors)*
+ - *Cloud Pub/Sub (Topic: smartwaste-telemetry)*
+3. *Device Management:* Cloud IoT Core manages bin device firmware updates and configuration
+
+*AI Development:*
+1. *Machine Learning Model:* Built on *Cloud AI Platform* to predict:
+ - Bin fill levels
+ - Waste arrival times
+ - Optimal pickup schedules
+2. *Model Training:* Using historical sensor data (*Cloud Storage bucket: smartwaste-historical*) and labeled datasets.
+3. *Model Deployment:* Trained model deployed as *Cloud Function (smartwaste-prediction)* triggered by new sensor data.
+
+*Integration Touchpoints:*
+- Cloud IoT Core -> Cloud Functions -> Cloud AI Platform
+- Cloud Pub/Sub -> Cloud Storage -> Cloud AI Platform
