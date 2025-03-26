@@ -1,4 +1,4 @@
-# E-waste crisis management-(will keep on updating as the project progresses)
+# E-waste crisis management-(will keep on updating along with the project)
 
 
 Overview
