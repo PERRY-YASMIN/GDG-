@@ -1,0 +1,23 @@
+BIN SEGREGATION SYSTEM DESIGN
+ 
+*Stage 1: E-waste vs Non E-waste Segregation*
+ - Entrance chute: 30" wide, 40" tall, made of durable *STAINLESS STEEL (SS304)*
+ - Sensors:
+  - Inductive proximity sensor (*Omron TJM-1000*) for metal detection
+  - Capacitive sensor (*Baumer CX-1000*) for non-metal detection
+ - Diverting ramp sends e-waste downwards to Stage 2, non e-waste to detachable container (*Polyethylene bin, 50gal capacity*)
+*Stage 2: E-waste Separation (Separable vs Non-Separable)*
+ - Conveyor belt: 24" wide, 10ft long, made of *BLACK NITRILE BELTING*
+ - AI-powered computer vision scanner (*Cognex In-Sight 9000) with camera (Basler acA2500*) 
+ - Pneumatic arms (*Festo MS6-SV) sort separable e-waste onwards, non-separable to side container (Polyethylene bin, 20gal capacity*)
+*Stage 3: Separable E-waste Material Segregation (3 sections)*
+ - IoT material sensors:
+  - *XRF sensor (Oxford Instruments X-Supreme 8000)* for metal identification
+  - *NIR sensor (Thermo Fisher Scientific Antaris II)* for plastic identification
+ - Sliding gates (*Actuator-driven, Festo EGSL-32*) divert materials to:
+ 1. Pure Metal compartment (*Stainless Steel bin, 30gal capacity*)
+ 2. Mixed Metal compartment (*Stainless Steel bin, 30gal capacity*)
+ 3. Plastic waste compartment (*HDPE bin, 50gal capacity*)
+*Stage 4: Collection Compartments & Exit*
+ - Dimensions and materials same as Stage 3 compartments
+ - Exit chutes connect to recycling trucks via *4" diameter flexible hoses*
