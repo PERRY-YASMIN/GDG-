@@ -1,4 +1,4 @@
-# GDG-
+# GDG-(will keep on updating as the project progresses)
 E-waste crisis management
 
 Overview
